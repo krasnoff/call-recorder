@@ -276,12 +276,13 @@ public class MainActivity extends ActionBarActivity {
             	break;
             case R.id.menu_Disable_record:
             	setSharedPreferences(false);
+            	supportInvalidateOptionsMenu();
             	toast = Toast.makeText(this, this.getString(R.string.menu_record_is_now_disabled), Toast.LENGTH_SHORT);
 		    	toast.show();
             	break;
             case R.id.menu_Enable_record:
             	setSharedPreferences(true);
-            	//activateNotification();
+            	supportInvalidateOptionsMenu();
             	toast = Toast.makeText(this, this.getString(R.string.menu_record_is_now_enabled), Toast.LENGTH_SHORT);
 		    	toast.show();
             	break;
