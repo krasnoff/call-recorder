@@ -4,32 +4,32 @@
         android:id="@+id/menu_Enable_record"
         android:enabled="false"
         android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom|collapseActionView"
+        yourapp:showAsAction="ifRoom"
         android:title="@string/menu_Enable_record"/>
     <item
         android:id="@+id/menu_Disable_record"
         android:enabled="false"
         android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom|collapseActionView"
+        yourapp:showAsAction="ifRoom"
         android:title="@string/menu_Disable_record"/>
     <item
         android:id="@+id/menu_about"
         android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom|collapseActionView"
+        yourapp:showAsAction="ifRoom"
         android:title="@string/menu_about"/>
     <item
         android:id="@+id/menu_see_terms"
         android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom|collapseActionView"
+        yourapp:showAsAction="ifRoom"
         android:title="@string/menu_terms"/>
     <item
         android:id="@+id/menu_privacy_policy"
         android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom|collapseActionView"
+        yourapp:showAsAction="ifRoom"
         android:title="@string/menu_privacy_policy"/>
 	<item
         android:id="@+id/menu_delete_all"
         android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom|collapseActionView"
+        yourapp:showAsAction="ifRoom"
         android:title="@string/menu_delete_all"/>
 </menu>
