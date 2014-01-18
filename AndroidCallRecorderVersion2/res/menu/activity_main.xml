@@ -1,35 +1,50 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    
+    <!-- item
+	    android:id="@+id/menu_show_menu"
+	    android:icon="@drawable/abc_ic_menu_moreoverflow_normal_holo_light"
+	    android:title="@string/menu_show_menu"
+	    yourapp:showAsAction="always">
+    
+    </item-->
 
     <item
         android:id="@+id/menu_Enable_record"
         android:enabled="false"
-        android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom"
+        android:orderInCategory="600"
+        yourapp:showAsAction="never"
+        android:icon="@drawable/ic_action_device_access_mic"
         android:title="@string/menu_Enable_record"/>
     <item
         android:id="@+id/menu_Disable_record"
         android:enabled="false"
-        android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom"
+        android:orderInCategory="500"
+        yourapp:showAsAction="never"
+        android:icon="@drawable/ic_action_device_access_mic_muted"
         android:title="@string/menu_Disable_record"/>
     <item
         android:id="@+id/menu_about"
-        android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom"
+        android:orderInCategory="400"
+        yourapp:showAsAction="never"
+        android:icon="@drawable/ic_action_action_about"
         android:title="@string/menu_about"/>
     <item
         android:id="@+id/menu_see_terms"
-        android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom"
+        android:orderInCategory="300"
+        yourapp:showAsAction="never"
+        android:icon="@drawable/ic_action_action_about"
         android:title="@string/menu_terms"/>
     <item
         android:id="@+id/menu_privacy_policy"
-        android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom"
+        android:orderInCategory="200"
+        yourapp:showAsAction="never"
+        android:icon="@drawable/ic_action_action_about"
         android:title="@string/menu_privacy_policy"/>
 	<item
         android:id="@+id/menu_delete_all"
         android:orderInCategory="100"
-        yourapp:showAsAction="ifRoom"
+        yourapp:showAsAction="never"
+        android:icon="@drawable/ic_action_content_remove"
         android:title="@string/menu_delete_all"/>
 </menu>
